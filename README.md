@@ -4,4 +4,5 @@ this software have two part:
 2. A React/Node application for administrator to view guest records.
 
 
-The admin is deployed at https://sheet.stevemu.com
+* The admin is deployed at https://sheet.stevemu.com
+* The java app has to been installed on a Mac/Linux/Windows computer
