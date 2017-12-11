@@ -134,7 +134,7 @@ export default class extends Component {
         return (
             <Container>
                 <LoginBox>
-                    <Title>Java Sign-in Sheet Admin Dashboard</Title>
+                    <Title>Digital Signin Sheet Admin Dashboard</Title>
                     <SubTitle>
                         <Icon/>
                         <span>Log-in to your account to see your guests' records</span>
