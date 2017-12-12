@@ -6,10 +6,9 @@ import models.Login;
 import models.Record;
 
 public class Helper {
-    static String base = "https://sheet.stevemu.com";
-//    static String base = "http://localhost:3001";
+//    static String base = "https://sheet.stevemu.com";
+    static String base = "http://localhost:3001";
     public static String token = null;
-
 
     static void postRecordToBackend(Record record) throws Exception {
         HttpResponse<JsonNode> jsonResponse = Unirest.post(base + "/api/records")

@@ -4,6 +4,7 @@ import styled from 'styled-components';
 import Clear from 'react-icons/lib/md/clear';
 
 const Container = styled.div`
+  padding: 20px;
   padding-top: 50px;
   background-color: #E9EBEF;
   min-height: 100vh;
@@ -11,6 +12,7 @@ const Container = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  box-sizing: border-box;
 `;
 
 const Title = styled.div`
@@ -19,13 +21,18 @@ const Title = styled.div`
 `;
 
 const Box = styled.div`
-  width: 380px;
+  width: 100%;
   background-color: white;
   border-radius: 5px;
   border: 2px solid #C0C0C0;
   padding: 20px;
   display: flex;
   flex-direction: column;
+  box-sizing: border-box;
+  
+  @media(min-width: 580px) {
+    width: 400px;
+  }
 `;
 
 const FieldTitle = styled.div`
