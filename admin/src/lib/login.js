@@ -11,6 +11,8 @@ async function handleLogin(conn, {username, password}) {
         throw new Error("Error: Username or password is empty");
     }
 
+    username = username.toLowerCase();
+
     // get user object
     let user = await getOneWithFilter(conn, USERS_TABLE, {username});
 

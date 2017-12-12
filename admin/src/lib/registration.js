@@ -13,6 +13,8 @@ async function handleRegistration(conn, {username, password}) {
         throw new Error("Error: Username or password is emtpy.")
     }
 
+    username = username.toLowerCase();
+
     // check if users with the username exists
     let arr = await getDocuments(conn, USERS_TABLE, {username});
     if (arr.length > 0) {
