@@ -133,8 +133,8 @@ export default class extends Component {
                         <Table>
                             <thead>
                             <tr>
-                                <th>Time</th>
                                 <th className="info">Name</th>
+                                <th>Time</th>
                                 <th className="info">Phone</th>
                                 <th className="info">Email</th>
                             </tr>
